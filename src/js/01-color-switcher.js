@@ -19,7 +19,8 @@ const startBtn = document.querySelector('[data-start]');
   });
 
   stopBtn.addEventListener('click', () => {
-    clearInterval(intervalId);
+      clearInterval(intervalId);
+      
     intervalId = null;
     startBtn.disabled = false;
   });
